@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDF5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salud Segura"
+            android:textAlignment="center"
+            android:textColor="#355C9A"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Información"
+            android:textAlignment="center"
+            android:textColor="#333333"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="28dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sobre Salud Segura"
+            android:textColor="#333333"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salud Segura es una aplicación móvil diseñada para facilitar la gestión básica de pacientes, servicios médicos y citas. Su propósito es apoyar la organización de la información y mejorar el acceso a los servicios de salud."
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Servicios de la aplicación"
+            android:textColor="#333333"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Registro de pacientes&#10;• Consulta de pacientes&#10;• Información de servicios médicos&#10;• Gestión de citas médicas&#10;• Contacto telefónico y por correo"
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnSitioWeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visitar sitio web"
+            android:textSize="16sp"
+            android:layout_marginBottom="14dp" />
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver al menú"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>
